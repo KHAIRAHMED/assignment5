@@ -1,0 +1,23 @@
+
+.searchButton{
+    text-align: center;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+   margin-top: 30px;
+   text-align: center;
+}
+#meals img{
+    width: 300px;
+}
+.mealClass{
+    border: 4px solid gray;
+    border-radius: 10px;
+}
+#ingredients img{
+    width : 200px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
