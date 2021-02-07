@@ -4,7 +4,7 @@ document.getElementById('searchButton').addEventListener('click',function(){
     const meals = document.getElementById('meals') 
     document.getElementById('input').value =''
     if (input === '') {
-        alert('Dont enter empty')
+        alert('Please enter valid food name')
         // meals.style.display = 'block';
     }
     else{
