@@ -13,6 +13,7 @@ fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${input}`)
 .then(res => res.json())
 .then(data=>{ mealList(data)
 })
+.catch(err => alert("please enter valid value"))
 }
 })
 const mealList= data=>{
